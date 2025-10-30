@@ -359,4 +359,5 @@ const moves = {
 	"Water Pulse"   : { name: "Water Pulse",   battleEffect:  null,                         type: "Water"    , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Doom Desire"   : { name: "Doom Desire",   battleEffect: "FutureAttack",                type: "Steel"    , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Psycho Boost"  : { name: "Psycho Boost",  battleEffect: "DamageAndUserSpattackDown2",  type: "Psychic"  , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
+	"Shadow Sneak"  : { name: "Shadow Sneak",  battleEffect: "Priority", 					type: "Ghost" 	 , damageFormula: DamageFormulaType.STANDARD_DAMAGE     },
 }

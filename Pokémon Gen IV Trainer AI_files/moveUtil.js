@@ -31,6 +31,7 @@ function aiIsPowerOther(moveData) {
 		case "TargetAttackDown1":
 		case "InflictSleep":
 		case "InflictConfusion":
+		case "InflictConfusionWendy":
 		case "Disable":
 		case "Mist":
 		case "LeechSeed":

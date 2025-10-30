@@ -113,7 +113,7 @@ const moves = {
 	"Harden"        : { name: "Harden",        battleEffect: "UserDefenseUp1",              type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Minimize"      : { name: "Minimize",      battleEffect: "Minimize",                    type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"SmokeScreen"   : { name: "SmokeScreen",   battleEffect: "TargetAccuracyDown1",         type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
-	"Confuse Ray"   : { name: "Confuse Ray",   battleEffect: "InflictConfusionWendy",            type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
+	"Confuse Ray"   : { name: "Confuse Ray",   battleEffect: "InflictConfusionWendy",       type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Withdraw"      : { name: "Withdraw",      battleEffect: "UserDefenseUp1",              type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Defense Curl"  : { name: "Defense Curl",  battleEffect: "DefenseCurl",                 type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Barrier"       : { name: "Barrier",       battleEffect: "UserDefenseUp2",              type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 

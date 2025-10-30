@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
-	<title>Pokémon Gen III Trainer AI [BETA]</title>
+	<title>Pokémon Emerald Trainer AI</title>
 	<meta name="viewport" content="width=600">
 
 	<link rel="icon" href="https://pokemow.com/favicon.png">
@@ -45,12 +45,13 @@
 		<summary>Important: Background information</summary>
 		<h2>Beta Release Notice</h2>
 		<p>This site, and information within is adapted from the <a
-				href="https://pokemow.com/Gen4/TrainerAI/pokemow.com/">Generation 4 site.</a>
+				href="https://pokemow.com/Gen4/TrainerAI/pokemow.com/">Generation 4 site</a> and the <a href="https://will-jj.github.io/gen4to3MowAI/">Generation 3 site</a>
+			for Battle Facilities play.
 			During the initial deployment some information in this briefing, and the subsequent move choice scoring may
 			reflect that - please report any issues wherever you discovered this site.</p>
 		<h2>Overview</h2>
 		<p>This page will look up trainer battle AI procedures for the
-			Generation III Pokémon games – Pokémon Emerald.</p>
+			Generation III Pokémon romhack – Pokémon Emerald Kaizo.</p>
 
 
 		<p>The Battle AI uses a scoring system to determine which move to use
@@ -78,16 +79,16 @@
 			randomness within the scoring functions.</p>
 
 		<h2>Move Scoring</h2>
-		<p>The scoring procedure is split into four main modules: Basic,
-			Strong, Expert, and Doubles (others exist as well, but they are not used
-			for Frontier battles).</p>
+		<p>The scoring procedure is split into six main modules: Basic (check bad move),
+			Strong (try to faint), Expert (check viability), Risky, Doubles, and Setup First Turn</p>
 
 		<p>As a general rule:</p>
 		<ul>
 			<li>
 				<p><strong>Basic AI</strong> discourages using moves without
 					effect: stat-boosting moves when already at +6, healing moves when
-					already at full HP, etc.</p>
+					already at full HP, status moves when the target is already statused, and non effective moves such as Earthquake
+					on a Flying target.</p>
 			</li>
 
 			<li>
@@ -97,6 +98,16 @@
 
 			<li>
 				<p><strong>Expert AI</strong> encourages using smarter strategies on a per-move basis.</p>
+			</li>
+			
+			<li>
+				<p><strong>Risky AI</strong> adds a bonus scoring to certain moves. Due to limited usage in Emerald Kaizo,
+				this flag will not have it's own section, but will have a notation if the move triggers this AI on a viable Pokémon.</p>
+			</li>
+
+			<li>
+				<p><strong>Setup AI</strong> adds a bonus scoring to certain moves on turn 1. Due to limited usage in Emerald Kaizo,
+				this flag will not have it's own section, but will have a notation if the move triggers this AI on a viable Pokémon.</p>
 			</li>
 
 			<li>

@@ -27,7 +27,7 @@ Stockpile +1Def/SpDef
 Spit Up (no effect)
 
 
-Add new moves
+Add new moves (add in moves and in index)
 Drill Run (high crit)
 Earth Power (chance to drop Def)
 Head Smash (recoil)
@@ -38,7 +38,6 @@ Air Slash
 Draco Meteor (recoil)
 Force Palm
 Flash Cannon
-Shadow Sneak
 Ice Shard
 
 

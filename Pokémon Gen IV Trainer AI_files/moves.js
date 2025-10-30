@@ -202,7 +202,7 @@ const moves = {
 	"Perish Song"   : { name: "Perish Song",   battleEffect: "PerishSong",                  type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Icy Wind"      : { name: "Icy Wind",      battleEffect: "DamageAndTargetSpeedDown1",   type: "Ice"      , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Detect"        : { name: "Detect",        battleEffect: "Protect",                     type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
-	"Bone Rush"     : { name: "Bone Rush",     battleEffect: "MultiHit",                    type: "Ground"   , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
+	"Bone Rush"     : { name: "Bone Rush",     battleEffect:  null,                    		type: "Ground"   , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Lock-On"       : { name: "Lock-On",       battleEffect: "LockOn",                      type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Outrage"       : { name: "Outrage",       battleEffect:  null,                         type: "Dragon"   , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Sandstorm"     : { name: "Sandstorm",     battleEffect: "Sandstorm",                   type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 

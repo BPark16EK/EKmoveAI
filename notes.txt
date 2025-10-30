@@ -27,18 +27,5 @@ Stockpile +1Def/SpDef
 Spit Up (no effect)
 
 
-Add new moves (add in moves and in index)
-Drill Run (high crit)
-Earth Power (chance to drop Def)
-Head Smash (recoil)
-Gunk Shot
-Wild Charge (recoil)
-X-Scissors (high crit)
-Air Slash
-Draco Meteor (recoil)
-Force Palm
-Flash Cannon
-Ice Shard
-
 
 Add Risky AI to expert AI entries

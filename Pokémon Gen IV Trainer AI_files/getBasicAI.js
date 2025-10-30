@@ -213,6 +213,10 @@ function getBasicAI(moveData) {
 			resultAiChecks.push("Check_TargetSafeguard");
 			break;
 
+		case "InflictConfusionWendy":
+			resultAiChecks.push("Check_TargetSafeguard");
+			break;
+
 		case "BellyDrum":
 			resultAiChecks.push("UserAttackUp1");
 			break;

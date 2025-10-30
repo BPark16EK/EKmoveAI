@@ -245,6 +245,14 @@ If the target's ability is Own Tempo:
 	Score -10 and terminate`,
 
 
+["InflictConfusionWendy"]:
+`If the target is already confused:
+	Score -5 and terminate
+
+If the target's ability is Own Tempo:
+	Score -10 and terminate`,
+
+
 ["InflictParalysis"]:
 `If the target's ability is Limber:
 	Score -10 and terminate`,

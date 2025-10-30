@@ -17,13 +17,9 @@ Adjust for move changes from Vanilla (high crit, etc)
 
 Sky Attack/Superpower/Overheat (change to recoil)
 
-Bone Rush (no additional)
-Sacred Fire (burn chance, user thaws)
-
 Morning Sun, Moonlight, Synthesis, Swallow always heal 50% (check to see AI)
 Stockpile +1Def/SpDef
 Spit Up (no effect)
-
 
 
 Add Risky AI to expert AI entries

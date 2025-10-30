@@ -355,11 +355,10 @@ If the target's HP is under 31%:
 	Score -1 and terminate`,
 
 ["InflictConfusionWendy"]:
-
-If the trainer is Cooltrainer Wendy, and this is the first turn of the battle:
+`If the trainer is Cooltrainer Wendy, and this is the first turn of the battle:
 	31% of a +2 scre and continue
 	
-`If the target's HP is over 70%:
+If the target's HP is over 70%:
 	No scoring change and terminate
 
 Unconditionally:

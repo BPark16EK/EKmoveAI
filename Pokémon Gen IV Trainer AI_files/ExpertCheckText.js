@@ -354,6 +354,21 @@ If the target's HP is under 51%:
 If the target's HP is under 31%:
 	Score -1 and terminate`,
 
+["InflictConfusionWendy"]:
+`If the trainer is Cooltrainer Wendy, and this is the first turn of the battle:
+	31% of a +2 score and continue
+	
+If the target's HP is over 70%:
+	No scoring change and terminate
+
+Unconditionally:
+	50% (128/256) chance of score -1 and continue
+
+If the target's HP is under 51%:
+	Score -1 and continue
+
+If the target's HP is under 31%:
+	Score -1 and terminate`,
 
 ["InflictParalysis"]:
 `If the user will move after the target:

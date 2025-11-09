@@ -87,19 +87,19 @@
 		<p>As a general rule:</p>
 		<ul>
 			<li>
-				<p><strong>Basic AI</strong> discourages using moves without
+				<p><strong>Basic AI (check bad move)</strong> discourages using moves without
 					effect: stat-boosting moves when already at +6, healing moves when
 					already at full HP, status moves when the target is already statused, and non effective moves such as Earthquake
 					on a Flying target.</p>
 			</li>
 
 			<li>
-				<p><strong>Strong AI</strong> encourages doing the most damage possible and going for a KO if one is
+				<p><strong>Strong AI (try to faint)</strong> encourages doing the most damage possible and going for a KO if one is
 					available.</p>
 			</li>
 
 			<li>
-				<p><strong>Expert AI</strong> encourages using smarter strategies on a per-move basis.</p>
+				<p><strong>Expert AI (check viability)</strong> encourages using smarter strategies on a per-move basis.</p>
 			</li>
 			
 			<li>
@@ -638,19 +638,19 @@
 		<h2 id="ai-subtitle" style="display:none"></h2>
 
 		<div class="flex-column gapless" id="basic-ai-container" style="display:none">
-			<div class="ai-header basic">Basic AI</div>
+			<div class="ai-header basic">Basic AI (Check Bad Move)</div>
 			<div id="basic-ai-body" class="ai-body flex-column"></div>
 			<div id="basic-move-info-body" class="ai-body move-info flex-column"></div>
 		</div>
 
 		<div class="flex-column gapless" id="strong-ai-container" style="display:none">
-			<div class="ai-header strong">Strong AI</div>
+			<div class="ai-header strong">Strong AI (Try To Faint)</div>
 			<div id="strong-ai-body" class="ai-body flex-column"></div>
 			<div id="strong-move-info-body" class="ai-body move-info flex-column"></div>
 		</div>
 
 		<div class="flex-column gapless" id="expert-ai-container" style="display:none">
-			<div class="ai-header expert">Expert AI</div>
+			<div class="ai-header expert">Expert AI (Check Viability)</div>
 			<div id="expert-ai-body" class="ai-body flex-column"></div>
 			<div id="expert-move-info-body" class="ai-body move-info flex-column"></div>
 		</div>

@@ -12,13 +12,11 @@ function getStrongAI(moveData) {
 			// Moves in sIgnoredPowerfulMoveEffects are not checked for cannot KO
 			case "DreamEater":
 			case "RazorWind":
-			case "SkyAttack":
 			case "MustRecharge":
 			case "SkullBash":
 			case "Solarbeam":
 			case "SpitUp":
 			case "FocusPunch":
-			case "Superpower":
 			case "HighHpHighDamage":
 			case "DamageAndUserSpattackDown2":
 				resultAiChecks.push("Check_GeneralCanKO");

@@ -241,7 +241,7 @@ const moves = {
 	"Morning Sun"   : { name: "Morning Sun",   battleEffect: "SunRecover",                  type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Synthesis"     : { name: "Synthesis",     battleEffect: "SunRecover",                  type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Moonlight"     : { name: "Moonlight",     battleEffect: "SunRecover",                  type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
-	"Hidden Power"  : { name: "Hidden Power",  battleEffect: "HiddenPower",                 type:  null      , damageFormula: DamageFormulaType.NON_STANDARD_DAMAGE }, 
+	"Hidden Power"  : { name: "Hidden Power",  battleEffect: null,                 			type:  null      , damageFormula: DamageFormulaType.STANDARD_DAMAGE		}, 
 	"Cross Chop"    : { name: "Cross Chop",    battleEffect: "HighCritical",                type: "Fighting" , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Twister"       : { name: "Twister",       battleEffect:  null,                         type: "Dragon"   , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Rain Dance"    : { name: "Rain Dance",    battleEffect: "RainDance",                   type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 

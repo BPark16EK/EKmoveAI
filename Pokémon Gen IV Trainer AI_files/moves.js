@@ -322,7 +322,7 @@ const moves = {
 	"Overheat"      : { name: "Overheat",      battleEffect: "13Recoil",					type: "Fire"     , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Odor Sleuth"   : { name: "Odor Sleuth",   battleEffect: "Identify",                    type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Rock Tomb"     : { name: "Rock Tomb",     battleEffect: "DamageAndTargetSpeedDown1",   type: "Rock"     , damageFormula: DamageFormulaType.STANDARD_DAMAGE     },
-	"Silver Wind"   : { name: "Silver Wind",   battleEffect:  "AllStatsUpHit",              type: "Bug"      , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
+	"Silver Wind"   : { name: "Silver Wind",   battleEffect: "AllStatsUpHit",               type: "Bug"      , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Metal Sound"   : { name: "Metal Sound",   battleEffect: "TargetSpdefenseDown2",        type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"GrassWhistle"  : { name: "GrassWhistle",  battleEffect: "InflictSleep",                type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Tickle"        : { name: "Tickle",        battleEffect: "Tickle",                      type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 

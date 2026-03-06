@@ -1175,7 +1175,7 @@ If the last move used by the foe is a special move:
 	Score -2 and terminate
 
 Otherwise:
-	5.5% (225/4096) chance of score -2 and terminate`,
+	58.6% (2401/4096) chance of score -2 and terminate`,
 
 
 ["UserEvasionUp1"]:
@@ -1245,7 +1245,7 @@ If the last move used by the foe is a physical move:
 	Score -2 and terminate
 
 Otherwise:
-	5.5% (225/4096) chance of score -2 and terminate`,
+	58.6% (2401/4096) chance of score -2 and terminate`,
 
 
 ["UserSpeedUp1"]:

@@ -384,7 +384,7 @@ If the user's HP is under 71%:
 
 
 ["InflictSleep"]:
-`If the user also has the move Nightmare or Dream Eater:
+`If the target has the move Nightmare or Dream Eater:
 	50% (128/256) chance of score +1 and terminate`,
 
 
@@ -809,7 +809,7 @@ If the either of the foe's types is Special:
 
 
 ["Refresh"]:
-`If the user's HP is under 50%:
+`If the target's HP is under 50%:
 	Score -1 and terminate`,
 
 
@@ -1030,7 +1030,7 @@ Otherwise:
 `If the user's HP is under 70%, or the target's HP is under 71%:
 	60.9% (156/256) chance of score -1 and continue
 
-If the target's accuracy is reduced to -2 or lower:
+If the user's accuracy is reduced to -2 or lower:
 	68.8% (176/256) chance of score -2 and continue
 
 If the target is badly poisoned:

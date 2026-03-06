@@ -250,7 +250,7 @@ const moves = {
 	"Mirror Coat"   : { name: "Mirror Coat",   battleEffect: "MirrorCoat",                  type:  null      , damageFormula: DamageFormulaType.NON_STANDARD_DAMAGE }, 
 	"Psych Up"      : { name: "Psych Up",      battleEffect: "PsychUp",                     type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"ExtremeSpeed"  : { name: "ExtremeSpeed",  battleEffect: "Priority",                    type: "Normal"   , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
-	"AncientPower"  : { name: "AncientPower",  battleEffect:  null,                         type: "Rock"     , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
+	"AncientPower"  : { name: "AncientPower",  battleEffect:  "AllStatsUpHit",              type: "Rock"     , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Shadow Ball"   : { name: "Shadow Ball",   battleEffect:  null,                         type: "Ghost"    , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Future Sight"  : { name: "Future Sight",  battleEffect: "FutureAttack",                type: "Psychic"  , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Rock Smash"    : { name: "Rock Smash",    battleEffect:  null,                         type: "Fighting" , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 

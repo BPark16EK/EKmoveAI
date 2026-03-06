@@ -19,6 +19,8 @@
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/BasicMoveInfoText.js"></script>
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/StrongMoveInfoText.js"></script>
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/ExpertMoveInfoText.js"></script>
+	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/Double_EnemyMoveInfoText.js"></script>
+	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/Double_AllyMoveInfoText.js"></script>
 
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/moveUtil.js"></script>
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/getBasicAI.js"></script>
@@ -30,6 +32,8 @@
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/getBasicMoveInfo.js"></script>
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/getStrongMoveInfo.js"></script>
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/getExpertMoveInfo.js"></script>
+	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/getDouble_EnemyMoveInfo.js"></script>
+	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/getDouble_AllyMoveInfo.js"></script>
 
 
 	<script src="Pok%C3%A9mon%20Gen%20IV%20Trainer%20AI_files/formatter.js"></script>
@@ -677,11 +681,13 @@
 		<div class="flex-column gapless" id="double-enemy-ai-container" style="display:none">
 			<div class="ai-header double-enemy">Doubles AI (targeting enemy)</div>
 			<div id="double-enemy-ai-body" class="ai-body flex-column"></div>
+			div id="double-enemy-move-info-body" class="ai-body move-info flex-column"></div>
 		</div>
 
 		<div class="flex-column gapless" id="double-ally-ai-container" style="display:none">
 			<div class="ai-header double-ally">Doubles AI (targeting ally)</div>
 			<div id="double-ally-ai-body" class="ai-body flex-column"></div>
+			<div id="double-ally-move-info-body" class="ai-body move-info flex-column"></div>
 		</div>
 	</div>
 
@@ -782,6 +788,8 @@
 			const expertCheckbox = document.getElementById("expert-ai-checkbox");
 			const riskyCheckbox = document.getElementById("risky-ai-checkbox");
 			const doubleCheckbox = document.getElementById("double-ai-checkbox");
+			const doubleEnemyMoveInfoBody = document.getElementById("double-enemy-move-info-body");
+			const doubleAllyMoveInfoBody = document.getElementById("double-ally-move-info-body");
 
 			const subtitle = document.getElementById("ai-subtitle");
 
@@ -890,6 +898,25 @@
 					doubleEnemyBody.replaceChildren(...results_enemy);
 					doubleAllyBody.replaceChildren(...results_ally);
 
+				let resultsEnemyMoveInfo = getDouble_EnemyMoveInfo(moves[move]);
+					if (resultsEnemyMoveInfo.length == 0) {
+						doubleEnemyMoveInfoBody.remove();
+					} else {
+						let resultsEnemyMoveInfoFormatted = prepareChecks(resultsEnemyMoveInfo, double_EnemyMoveInfoCheckText, rawHtmlFlag);
+						doubleEnemyMoveInfoBody.replaceChildren(...resultsEnemyMoveInfoFormatted);
+						doubleEnemyBody.prepend(doubleEnemyMoveInfoBody);
+					}
+
+					let resultsAllyMoveInfo = getDouble_AllyMoveInfo(moves[move]);
+					if (resultsAllyMoveInfo.length == 0) {
+						doubleAllyMoveInfoBody.remove();
+					} else {
+						let resultsAllyMoveInfoFormatted = prepareChecks(resultsAllyMoveInfo, double_AllyMoveInfoCheckText, rawHtmlFlag);
+						doubleAllyMoveInfoBody.replaceChildren(...resultsAllyMoveInfoFormatted);
+						doubleAllyBody.prepend(doubleAllyMoveInfoBody);
+					}
+
+					
 					doubleEnemyContainer.style.display = "";
 					doubleAllyContainer.style.display = "";
 				} else {

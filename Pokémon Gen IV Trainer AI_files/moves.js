@@ -327,7 +327,7 @@ const moves = {
 	"GrassWhistle"  : { name: "GrassWhistle",  battleEffect: "InflictSleep",                type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Tickle"        : { name: "Tickle",        battleEffect: "Tickle",                      type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
 	"Cosmic Power"  : { name: "Cosmic Power",  battleEffect: "BothDefenseUp1",              type:  null      , damageFormula: DamageFormulaType.NO_DAMAGE           }, 
-	"Water Spout"   : { name: "Water Spout",   battleEffect: "HighHpHighDamage",            type: "Water"    , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
+	"Water Spout"   : { name: "Water Spout",   battleEffect: "14Recoil",           		    type: "Water"    , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Signal Beam"   : { name: "Signal Beam",   battleEffect:  null,                         type: "Bug"      , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Shadow Punch"  : { name: "Shadow Punch",  battleEffect: "CannotMiss",                  type: "Ghost"    , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 
 	"Extrasensory"  : { name: "Extrasensory",  battleEffect:  null,                         type: "Psychic"  , damageFormula: DamageFormulaType.STANDARD_DAMAGE     }, 

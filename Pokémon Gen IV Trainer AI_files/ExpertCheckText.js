@@ -90,9 +90,6 @@ If the user's HP is under 31%:
 If the user's HP is under 51%:
 	60.9% (156/256) chance of score -1 and continue
 
-If the user also has the move Mirror Coat:
-	60.9% (156/256) chance of score +4 and terminate
-
 If the foe is under the effect of Taunt:
 	60.9% (156/256) chance of score +1 and continue
 

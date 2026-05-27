@@ -1,6 +1,4 @@
 const expertMoveInfoCheckText = {
-        ["Counter"]:
-        `Note: The check for if the user also has the move Mirror Coat will always be false.`,
     ["Protect"]:
         `Note: The shared counter for protect/detect/endure is only updated when the move is selected by the user.`,
     ["WeatherUsing"]:

@@ -16,12 +16,6 @@ function getDouble_EnemyAI(moveData) {
 			handled = true;
 			break;
 
-		case "Thunder Wave":
-		case "Charge":
-			resultAiChecks.push("Check_ElectricAttack");
-			handled = true;
-			break;
-
 		case "Sunny Day":
 		case "Will-O-Wisp":
 			resultAiChecks.push("Check_UserFlashFire");
